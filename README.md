@@ -1,6 +1,7 @@
 # ExoPlayer extensions
 # ExoPlayer扩展库
-ExoPlayer版本：2.19.1
+[ExoPlayer](https://github.com/google/ExoPlayer)版本：2.19.1    
+如果你需要使用[Media3](https://github.com/androidx/media)的扩展库，详见 [Media3Extensions](https://github.com/shenbengit/Media3Extensions)
 ## 目前支持：
 ### FFmpeg
 目前官方只支持**音频解码**    
@@ -21,7 +22,7 @@ allprojects {
 > 在您引入项目的build.gradle中添加
 ```gradle
 dependencies {
-    implementation 'io.github.shenbengit.exoplayer-extensions:ffmpeg:1.0.0' // 可选
+    implementation 'io.github.shenbengit.exoplayer-extensions:ffmpeg:1.0.0'
 }
 ```
 
