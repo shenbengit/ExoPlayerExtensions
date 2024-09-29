@@ -31,7 +31,7 @@ dependencies {
 ``` kotlin
 private val exoPlayer: ExoPlayer by lazy {
     ExoPlayer.Builder(context)
-        .setRenderersFactory(DefaultRenderersFactory(activity).apply {
+        .setRenderersFactory(DefaultRenderersFactory(context).apply {
             // 扩展渲染器模式开启
             setExtensionRendererMode(DefaultRenderersFactory.EXTENSION_RENDERER_MODE_ON)
         })
